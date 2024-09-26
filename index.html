@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script>
+        document.getElementById("username").innerText = 'Привет, ${first_name}!';
+    </script>
     <title>LuckyAxe - Telegram Casino Bot</title>
 </head>
 <body>
     <div class="info">
-        <p id="username"></p>
-        <p id="money">1000$</p>
+        <span id="username" style="text-align: right;"></span>
+        <span id="money" style="text-align: left;">1000$</span>
 
     </div>
 
