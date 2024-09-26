@@ -1,10 +1,20 @@
 body
 {
-    background-color: #333;
+    background-color: #2f2f2f;
 }
 
 p
 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#money
+{
+    text-align: right;
+}
+
+#username
+{
+    text-align: left;
 }

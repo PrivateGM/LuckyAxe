@@ -1,0 +1,1 @@
+document.getElementById("username").innerText = `Привет, ${first_name}!`;
